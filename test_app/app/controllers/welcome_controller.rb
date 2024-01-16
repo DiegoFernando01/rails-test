@@ -1,5 +1,5 @@
 class WelcomeController <ApplicationController
   def hello
-    @variable = Pet.first.name
+    @variable = "Hola soy " + Pet.first.name + " y soy un " + Pet.first.bread
   end
 end
